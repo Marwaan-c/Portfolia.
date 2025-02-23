@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="port.css" />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <!-- Halkan waxaad ku dari kartaa logo -->
+        <a href="#about">Marwaan Hassan Ali</a>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-me">
+        <h1 class="about-me-ti">About Me</h1>
+        <p class="about-me-con">
+          I am a versatile professional specializing in digital marketing, web development, video editing, and graphic design. I strive to create innovative solutions that keep pace with rapidly changing market trends while continuously enhancing my skills and expertise. My goal is to deliver high-quality results that reflect the creativity and dedication I bring to every project, ensuring tangible and collaborative success.
+        </p>
+      </div>
+      <div class="img">
+        <img src="Image 1.png" alt="About Me Image" />
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container-2">
+      <div class="container-content">
+        <h2 class="skills-title">Skills</h2>
+        <p class="skills-content">
+          I possess a diverse set of skills that include modern web development,
+          responsive Marketing, and creative problem-solving. My expertise spans
+          Web development, Digital Marketing,
+        </p>
+      </div>
+      <div class="icon">
+        <div class="icon-card">
+          <img src="world-wide-web.png" alt="Web Developer" />
+          <div class="card-content">
+            <h4 class="card-title">Web Developer</h4>
+          </div>
+        </div>
+        <div class="icon-card">
+          <img src="marketing-agency.png" alt="Digital Marketing" />
+          <div class="card-content">
+            <h4 class="card-title">Digital Marketing</h4>
+          </div>
+        </div>
+        <div class="icon-card">
+          <img src="video-editor.png" alt="Video Editing" />
+          <div class="card-content">
+            <h4 class="card-title">Video Editing</h4>
+          </div>
+        </div>
+        <div class="icon-card">
+          <img src="ui-design.png" alt="Graphic Design" />
+          <div class="card-content">
+            <h4 class="card-title">Graphic Design</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="project" class="project">
+    <div class="container-sm">
+      <h2 class="project-title">Project</h2>
+      <p class="Project-content">
+        My portfolio showcases my work in video editing, graphic design, digital
+        marketing, and web development. Each project highlights my skills in
+        creating engaging visuals, crafting marketing strategies, and building
+        modern, user-friendly websites. Take a look and see how I can bring your
+        ideas to life!
+      </p>
+    </div>
+    <div class="projects-wrapper">
+      <div class="project-image">
+        <img src="P.1.png" alt="Project website" />
+        <img src="P.2.png" alt="Project website" />
+      </div>
+      <div class="project-image2">
+        <img src="F&M Design.13.jpg" alt="Project" />
+        <img src="F&M Design.17.jpg" alt="Project" />
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="contact">
+    <div class="contact-info">
+      <h2 class="contact-title">Marwaan Hassan Ali</h2>
+      <p class="contact-content">
+        For more time I have been working tirelessly to help people reach
+        their highest potential, constantly sharing new skills, future guidance,
+        and inspiration for personal and professional success.
+      </p>
+    </div>
+    <div class="social-icons">
+      <a href="https://github.com/Marwaan-c" target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/marwaan-hassan-ali-15882331b/"
+        target="_blank"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a href="https://x.com/MARWAANHAS41633" target="_blank"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a href="mailto:example@example.com"><i class="fas fa-envelope"></i></a>
+
+  
+
+    </div>
+    <div class="line">
+      <p>&copy; 2025 Marwaan Hassan Ali. All rights reserved.</p>
+          </div>
+  </footer>
+
+  <!-- JavaScript for Burger Menu -->
+  <script>
+    const burger = document.querySelector('.burger');
+    const navLinks = document.querySelector('.nav-links ul');
+
+    burger.addEventListener('click', () => {
+      navLinks.classList.toggle('nav-active');
+      burger.classList.toggle('toggle');
+    });
+  </script>
+</body>
+</html>
